@@ -1,0 +1,50 @@
+#main-section{
+    height: 800px;
+    background-image: url("../assets/images/cover.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#main-content{
+    width: 800px;
+    background-color: rgba(51, 47 , 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding:50px 0;
+    margin: 0 auto;
+    position: relative;
+    top:200px;
+}
+
+#main-content h1{
+    color: rgb(233, 227, 227);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+#main-content p {
+    color:rgb(233, 227, 227);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 50px;
+    margin-bottom: 32px;
+}
+
+#main-content a{
+    text-decoration: none;
+    background-color: rgb(247, 244, 93);
+    padding: 10px 24px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#main-content a:hover {
+    background-color:rgb(218, 209, 85);
+}
