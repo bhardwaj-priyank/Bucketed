@@ -18,6 +18,17 @@ ul {
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0, 0 , 0);
 }
+
+#page-items a {
+    padding: 10px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: rgb(245, 140, 160);
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0 , 0);
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -28,27 +39,8 @@ header{
 
 header ul{
     display: flex;
+
 }
 header li{
     margin-left: 10px;
-}
-
-#container{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(81, 14, 83, 0.575);
-}
-.heading{
-    width: 200px;
-    background-color: rgb(81, 61, 114);
-}
-.unordered{
-    width: 200px;
-    padding: 5px;
-    background-color: azure;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 }
